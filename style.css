@@ -191,6 +191,9 @@ table tr {
 }
 
 @media screen and (max-width: 768px) {
+    .flex-item {
+        height: 200px;
+    }
     body {
         font-size: 14px;
     }
@@ -213,7 +216,9 @@ table tr {
     }
     footer p {
         margin-left: 1rem;
-
-    
     }
+    main.container{
+        max-width: 100%;
+    }
+
 }
