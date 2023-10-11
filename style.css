@@ -185,6 +185,7 @@ table tr {
     background-color: white;
     color: black;
 }
+
 .second-column {
     background-color: rgb(20, 20, 20);
 }
@@ -209,5 +210,10 @@ table tr {
     }
     table{
         width: 100%;
+    }
+    footer p {
+        margin-left: 1rem;
+
+    
     }
 }
