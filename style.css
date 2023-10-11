@@ -152,6 +152,42 @@ main.container {
     max-width: 90%;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 90%;
+    
+    margin: 30px auto;
+    
+
+}
+table th, table td {
+    border-width: 0;
+}
+table tr th, table tr td {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0.25rem 0.5rem;
+}
+table tr th:last-child, table tr td:last-child {
+    border-right: none;
+}
+table tr:last-child th, table tr:last-child td {
+    border-bottom: none;
+}
+table tr {
+    text-align: left;
+    background-color: black;
+    color: var(--white);
+}
+.first-column {
+
+    background-color: white;
+    color: black;
+}
+.second-column {
+    background-color: rgb(20, 20, 20);
+}
 
 @media screen and (max-width: 768px) {
     body {
